@@ -35,5 +35,5 @@ export const api = {
   updateSettings: (body) => request('/users/settings', { method: 'PUT', body: JSON.stringify(body) })
 };
 
-export const GOOGLE_LOGIN_URL = `${API_URL}/auth/google`;
-export const FACEBOOK_LOGIN_URL = `${API_URL}/auth/facebook`;
+export const GOOGLE_LOGIN_URL = `${API_URL}/api/auth/google`;
+export const FACEBOOK_LOGIN_URL = `${API_URL}/api/auth/facebook`;
